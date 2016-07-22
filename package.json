@@ -1,0 +1,17 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "test": "mocha test.js",
+    "test:watch": "watch 'npm run test' ."
+  },
+  "author": "",
+  "license": "ISC"
+}
